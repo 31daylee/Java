@@ -13,7 +13,7 @@ public class Test03 {
 		int num = 1;
 		int result = 1;
 		
-		result = num++;
+		result = num++; //대입이 첫번째 그 다음에 증감(++)
 		System.out.println("result : "+ result);
 		
 		result = ++num;

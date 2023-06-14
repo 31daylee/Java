@@ -20,15 +20,15 @@ public class Test05 {
 		
 		System.out.println("입력한 점수는 " + score + "입니다.");
 		
-		switch(score == ) {
-		case 10:
-		case 9:
+		switch(score / 10) {
+		case 10: // 100점
+		case 9: // 90점대 
 			System.out.println("A 입니다.");
 			break;
-		case 8:
+		case 8: // 80점대
 			System.out.println("B 입니다.");
 			break;
-		case 7:
+		case 7: // 70점대
 			System.out.println("C 입니다.");
 			break;
 		case 6:

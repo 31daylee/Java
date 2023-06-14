@@ -21,7 +21,7 @@ public class Test06 {
 		System.out.println("y값 입력 : ");
 		int y = sc.nextInt();
 		
-		int result = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
+		String result = x > y ? "x가 더 큽니다." : "y가 더 큽니다."; // 대입연산자 앞에는 무조건 변수- 변수는 타입선언 필수
 		
 		System.out.println(result);
 				
