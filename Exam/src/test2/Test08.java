@@ -21,7 +21,7 @@ public class Test08 {
 			return 1;
 		}
 
-		return n * factorial(n-1);
+		return n * factorial(n-1); //Recursive 재귀함수 
 	}
 
 }

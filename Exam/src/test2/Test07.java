@@ -25,14 +25,14 @@ public class Test07 {
 			
 		}else {
 			temp = b;
-		}
+		}// 두 수 중에 작은 수를 temp에 넣자
 		
 		while (true) {
 			
 			if(a % temp == 0 && b % temp == 0 ) {
-				break; 
+				break;  // 나눴을 때 0을 만드는 값은 최대공약수이기에 a와 b모두 0을 만드는 temp값을 찾는다면 멈춰라
 			}
-			temp--;	
+			temp--;	 // 나머지가 0일 될 때까지 temp의 수를 낮추는 식
 		}
 		return temp;
 		

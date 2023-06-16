@@ -15,9 +15,9 @@ public class Test04 {
 			for(int j=i+1; j<5; j++) {
 				
 				if(arr[i] > arr[j]) {
-					int temp = arr[j];
-					arr[j] = arr[i];	
-					arr[i] = temp;
+					int temp = arr[j]; // 인접한 숫자와 비교
+					arr[j] = arr[i];	// 자리 교환식 (들어갈 자리 양보)
+					arr[i] = temp; 		// 자리 교환식 (자리에 들어가기)
 					}
 				}
 			}

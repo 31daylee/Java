@@ -10,12 +10,12 @@ import java.util.Scanner;
  */
 public class Test06 {
 
-	public static void intro () {
+	public static void intro () {  
 		System.out.println("******* START *******");
 		System.out.println("두개의 정수를 입력");
 	}
 	
-	public static int input(Scanner sc, String name) {
+	public static int input(Scanner sc, String name) { //name의 타입을 찾는 곳은 input을 호출하는 곳으로 이동(36-37라인)
 		System.out.print("변수 "+ name +"값 입력 : ");
 		int input = sc.nextInt();
 		return input;	
@@ -24,20 +24,20 @@ public class Test06 {
 		System.out.println("덧셈 결과 : "+ val);
 		System.out.println("******* END *******");
 	}
-	public static int add (int x, int y) {
+	public static int add (int x, int y) { // int + int => int 
 		return x + y;
 	}
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		intro ();
+		intro ();  //START값 호출문
 	
-		int a = input(sc, "a");
+		int a = input(sc, "a"); //문자('')가 아닌 문자열("")
 		int b = input(sc, "b");
 		
 		int output = add(a,b);
-		result(output);
+		result(output); //result 호출 장소 - output의 매개변수 타입은? => int 
 		
 		sc.close();
 	}

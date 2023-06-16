@@ -13,9 +13,9 @@ public class Test05 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int arr[] = {5, 10, 18, 22, 35, 55, 75, 103, 152};
+		int arr[] = {5, 10, 18, 22, 35, 55, 75, 103, 152}; 
 		
-		System.out.print("검색할 값 입력 : ");
+		System.out.print("검색할 값 입력 : ");  
 		int value = sc.nextInt();
 		
 		int start = 0;
@@ -27,10 +27,10 @@ public class Test05 {
 			
 			int mid = (start + end) / 2;
 			
-			if(arr[mid]> value) {
-				end = arr[end];
+			if(arr[mid]> value) {  //중간값이 내가 찾으려는 value값보다 작다면? if문 실행하기
+				end = mid -1;    // 끝은 중간값에서 앞까지
 			}else if(arr[mid] < value) {
-				start = arr[start];
+				start = mid + 1;  // 시작은 중간값보다 하나 큰 자리로 
 			}else {
 				loc = mid;
 				state = true;

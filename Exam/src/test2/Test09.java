@@ -19,10 +19,10 @@ public class Test09 {
 
 	public static int gcd(int a, int b) {
 		
-		if(a%b == 0) {
+		if(a%b == 0) { //나눴을 때 나머지가 0이면 나눈값이 나머지가 된다
 			return b;
 		}else {
-			return gcd(b, a%b);
+			return gcd(b, a%b); //나눠서 나눈 나머지를 활용해 반복하기 
 		}	
 	}
 

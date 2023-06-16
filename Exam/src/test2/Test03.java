@@ -18,13 +18,13 @@ public class Test03 {
 		System.out.println("\n");
 		
 		for (int j = 0; j <5; j++) {
-			int temp = arr[j];
-			temp = arr[9 - j];
-			arr[9 - j] = temp;
+			int temp = arr[j]; // 임시 temp변수에 저장하라 
+			arr[j] = arr[9 - j];
+			arr[9 - j] = temp; // arr[9]를 템프에 넣기 전에 arr[9]-10을 첫번째 자리(arr[0])에 가져다 줘야함 
 			
 		}
 		
-		for(int n = 5; n >0 ;  n--) {
+		for(int n = 10; n >0 ;  n--) {
 			System.out.print(n+", ");
 		}
 
