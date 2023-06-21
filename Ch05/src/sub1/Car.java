@@ -20,7 +20,7 @@ public class Car {
 	
 	// 메서드(기능) 필드 속성과 관련된 기능을 정의
 	public void speedUp(int speed) {
-		this.speed += speed;
+		this.speed += speed; // this.speed = this.speed + speed // this 를 쓰는 것은 매개변수와 구분하기 위해서이고, 전역변수를 지정하기 위해서다. 그리고 출력문 밖으로 나가면 매개변수는 더이상 사용할 수가 없기에 전역변수를 기준을 삼는다 
 		
 	
 	}

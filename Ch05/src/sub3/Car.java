@@ -13,7 +13,7 @@ public class Car {
 	
 	
 	//클래스 변수 (=정적변수)
-	public static int count; // static 은 public 이므로 캡슐화를 하지 않음, Method Area 에 저장된다 
+	public static int count ; // static 은 public 이므로 캡슐화를 하지 않음, Method Area 에 저장된다 
 	
 	
 	//생성자 // 초기화를 담당하는 메서드

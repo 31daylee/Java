@@ -1,35 +1,30 @@
-package sub2;
-/**
- * 날짜 : 2023/06/19
- * 이름 : 이현정
- * 내용 : Java 캡슐화 실습하기
- */
+package sub5;
+
 public class Account {
 	
-	//필드=속성
-	protected String bank;
-	protected String id;
-	protected String name;
-	protected int balance;
+	String bank;
+	String id;
+	String name;
+	int balance;
 	
 	
-	// 생성자
-	public Account(String bank, String id, String name,int balance) {
+	public Account(String bank, String id, String name, int balance) {
 		this.bank = bank;
 		this.id = id;
 		this.name = name;
 		this.balance = balance;
 		
 	}
-	
-	//메소드
 	public void deposit(int money) {
 		this.balance += money;
 		
-	}public void withdraw(int money) {
+	}
+	public void withdraq(int money) {
 		this.balance -= money;
 		
-	}public void show() {
+		
+	}
+	public void show() {
 		System.out.println(" ---------------- ");
 		System.out.println("은행명 : "+ this.bank);
 		System.out.println("계좌번호 : "+ this.id);

@@ -23,6 +23,7 @@ class Adder {
 		return instance;
 	}
 	private Adder() {} // 생성자 
+	
 	private Adder(int value) {
 		y += value;
 	}
@@ -37,7 +38,7 @@ class Adder {
 		
 	}
 	public void add(int[] arr) {
-		x += arr[0];  //x가 원래 1 이었음 여기에서 +20
+		x += arr[0];  //x가 원래 1 이었음 여기에서 +20 x = x + arr[0]=10 (0번째 인덱스를 참조하는 값)
 		y += arr[1];  // y는 0이었음 ???
 		
 	}
