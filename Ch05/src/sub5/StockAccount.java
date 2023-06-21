@@ -22,7 +22,7 @@ public class StockAccount extends Account {
 	}
 	public void sell(int amount, int price) {
 		this.amount -= amount;
-		this.balance += amount * price; //부모의 기능을 사용하고 싶으니 protected접근제한자로 변경
+		this.balance += amount * price; //부모의 기능을 사용하고 싶으니 protected접근제한자로 변경 (직접 참조의 경우에 사용)
 		
 	}
 	public void buy(int amount, int price) {
