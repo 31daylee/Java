@@ -6,6 +6,8 @@ public class Truck implements Car {
 	private String color;
 	private int speed;
 	
+	
+	
 	public Truck(String name, String color, int speed) {
 		this.name = name;
 		this.color = color;
