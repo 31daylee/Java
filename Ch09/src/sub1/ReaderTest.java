@@ -58,7 +58,7 @@ public class ReaderTest {
 		e.printStackTrace();
 	}
 
-	System.out.println("프로그램 종료...");
+	System.out.println("\n프로그램 종료...");
 	
 	
 }// main end
