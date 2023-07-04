@@ -14,6 +14,8 @@ public class Test02 {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		
+		sc.close();
+		
 		if (a>=90 && a<=100) {
 			System.out.println("A");
 		}else if (a>=80 && a<90) {
