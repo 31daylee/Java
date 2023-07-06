@@ -11,6 +11,8 @@ public class Test06 {
 
 	public static void main(String[] args) {
 		
+				
+		
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
@@ -18,20 +20,15 @@ public class Test06 {
 		
 		sc.close();
 		
-		if((b+c)-60 > 60) {
-			b= (b + c)-60;
-			a++;
-			System.out.println(a +" "+ b);
-		}if((b+c)-60 == 60) {
-			a++;
-			b=0;
-			System.out.println(a +" "+ b);
-		}else {
-			
-			System.out.println(a +" "+ (b+c));
-			
-		}
-
+		int min = 60 * a + b;
+		min += c;
+		
+		int hour = (min/60) %24;
+		int minute = min % 60;
+		
+		System.out.println(hour + " "+ minute);
+		
 	}
+	
 
 }
