@@ -48,7 +48,9 @@ public class ArrayTest {
 		for(String city : arr3) {
 			System.out.print(city + " ");
 		}
-		
+		 System.out.println();
+		 
+		 
 		//1차원 배열
 		int[] scores = {80, 60, 78, 62, 92};
 		int total = 0;
@@ -57,9 +59,21 @@ public class ArrayTest {
 			total += score;
 		}
 		System.out.println("scores 합 : " + total);	
+		
+		
+		int[] scores2 = {80, 60, 78, 62, 92};
+		int sum = 0;
+		int i = 0;
+		
+		while(i <scores2.length) {
+			sum += scores2[i];
+			i++;
+		}
+		System.out.println("scores2 합 : " + sum);
+		
+		
 				
-				
-		//2차원 배열
+		//2차원 배열 - for문
 		int[][] arr2d = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
 		
 		for(int a=0; a<3; a++) {
@@ -69,6 +83,20 @@ public class ArrayTest {
 			}
 		}
 		
+		//2차원배열 -while문 
+		int row = 0;
+		
+		while(row < arr2d.length) {
+			int column = 0;
+			
+			while (column < arr2d[row].length) {
+				
+				System.out.print(arr2d[row][column]+" ");
+				column++;
+			}
+			row++;
+		}
+		System.out.println();
 		
 		
 	
