@@ -29,9 +29,9 @@ public class DeleteTest {
 			Statement stmt = conn.createStatement();
 			
 			// 4단계
-			String spl = "DELETE FROM `User1` WHERE `uid`='j101' ";
+			String sql = "DELETE FROM `User1` WHERE `uid`='j101' ";
 			
-			stmt.executeUpdate(spl);
+			stmt.executeUpdate(sql);
 			
 			// 5단계
 			// 6단계
