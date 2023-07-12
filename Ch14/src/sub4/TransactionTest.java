@@ -80,7 +80,7 @@ public class TransactionTest {
 				e1.printStackTrace();
 			}
 		}
-		System.out.println("트랜잭션 완로...");
+		System.out.println("트랜잭션 완료...");
 				
 	}
 
