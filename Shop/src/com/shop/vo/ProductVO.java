@@ -41,5 +41,10 @@ public class ProductVO {
 	public void setCompany(String company) {
 		this.company = company;
 	}
+	
+	@Override
+	public String toString() {
+		return prodNo+","+prodName+","+stock+","+price+","+company;
+	}
 
 }
