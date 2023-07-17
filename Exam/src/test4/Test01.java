@@ -39,7 +39,7 @@ public class Test01 {
 				continue;
 			}
 				
-			if(answer <input) {
+			if(answer > input) {
 				System.out.println("더 큰 수를 입력하세요.");
 			}else if(answer < input) {
 				System.out.println("더 작은 수를 입력하세요.");

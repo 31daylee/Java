@@ -32,10 +32,11 @@ public class Test02 {
 			
 		}catch(NotFoundException e ) {
 			System.out.println(e.getMessage());
+			
 		}finally {
-		
 			sc.close();
 		}	
+		System.out.println("프로그램 정상 종료...");
 
 	}
 	public static void searchArray(int find, int[] arr) throws NotFoundException{
