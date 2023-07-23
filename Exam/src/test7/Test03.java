@@ -19,6 +19,8 @@ class Bus{
 		System.out.printf("버스 요금은 %,d입니다.\n",fee);
 	}
 }
+
+
 class Subway{
 	private String line;
 	private int fee;
@@ -34,6 +36,7 @@ class Subway{
 		System.out.printf("지하철 요금은 %,d입니다.\n",fee);
 	}
 }
+
 
 class User{
 	private String name;

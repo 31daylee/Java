@@ -1,8 +1,8 @@
 package sub3;
 /**
- * 날짜 : 2023/06/13
- * 이름 : 이현정
- * 내용 : Java 반복문 For 실습하기
+ * ��吏� : 2023/06/13
+ * �대� : �댄����
+ * �댁�� : Java 諛�蹂듬Ц For �ㅼ�듯��湲�
  * 
  */
 public class ForTest {
@@ -17,7 +17,7 @@ public class ForTest {
 		
 		}
 		
-		//1부터 10까지의 합
+		//1遺��� 10源�吏��� ��
 		int sum = 0;
 		
 		for (int k=1; k<=10; k++) {
@@ -25,10 +25,10 @@ public class ForTest {
 			sum += k;
 		
 		
-		} System.out.println("1부터 10까지의 합" + sum);
+		} System.out.println("1遺��� 10源�吏��� ��" + sum);
 		
 		
-		//1부터 10까지의 짝수합
+		//1遺��� 10源�吏��� 吏�����
 		int tot = 0;
 		
 		for(int k=1; k<=10; k++) {
@@ -36,10 +36,10 @@ public class ForTest {
 				tot += k;
 			}
 		}
-		System.out.println("1부터 10까지의 짝수합" + tot);
+		System.out.println("1遺��� 10源�吏��� 吏�����" + tot);
 		
 		
-		//for 중첩
+		//for 以�泥�
 		for(int a=1; a<=3; a++) {
 			
 			System.out.println("a : "+ a);
@@ -52,12 +52,12 @@ public class ForTest {
 				System.out.println("c : " + c);
 			}
 		}
+	
 		
-		
-		//구구단
+		//援ш뎄��
 		for(int x=2; x<=9; x++) {
 			 
-			System.out.println(x+ "단");
+			System.out.println(x+ "��");
 			
 			for(int y=1; y<=9; y++) {
 				
@@ -65,15 +65,15 @@ public class ForTest {
 				System.out.printf("%d x %d = %d\n",x,y,z);
 			}
 		}
-		//별삼각형
+		//蹂��쇨���
 		for(int start=1; start <=10; start++) {
 			
 			
 			for(int end=1; end <=start; end++) {
 				
-				System.out.print("★");
+				System.out.print("��");
 			}
-			System.out.print("\n"); // 개행
+			System.out.print("\n"); // 媛���
 
 		
 

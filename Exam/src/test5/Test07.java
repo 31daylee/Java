@@ -8,7 +8,7 @@ import java.util.Scanner;
 * 내용 : 자바 총정리 연습문제
 * 
 * BMI
-* - BNI(Body Mass Index) 체질량 지수
+* - BMI(Body Mass Index) 체질량 지수
 * - 몸무게를 키의 제곱으로 나눈 지수
 */
 public class Test07 {

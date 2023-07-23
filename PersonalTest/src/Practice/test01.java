@@ -17,7 +17,7 @@ public class test01 {
 			  
 			 
 	
-				System.out.println(arr[a][b]+ " ");
+				System.out.print(arr[a][b]+ " ");
 				
 				b++;
 			
