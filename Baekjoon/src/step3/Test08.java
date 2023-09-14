@@ -14,6 +14,7 @@ public class Test08 {
 	public static void main(String[] args) {
 		
 		try {
+			
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			
 			int num = Integer.parseInt(br.readLine());
@@ -28,15 +29,15 @@ public class Test08 {
 				b[i] = Integer.parseInt(st.nextToken());
 				sum[i] = a[i]+b[i];
 				
-			}br.close();
+			}
+			br.close();
+			
 			for(int i=0; i<num; i++) {
 				System.out.println("Case #"+(i+1)+": "+a[i]+" + "+b[i]+" = "+sum[i]);
 			}
 			
-			
-			
-			
 		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		
 	}
